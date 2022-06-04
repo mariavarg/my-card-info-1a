@@ -1,0 +1,18 @@
+<form action="/" method="POST" encType="multipart/form-data">
+<h3>Upload Photo</h3>
+<input type="file" name="uploadFile""accept="image/*"/>
+<input type="submit" name="UploadFile" class="btn btn-primary">
+</form>
+
+<div class="card">
+    {{#each rows}}
+
+    <img class="card__image" scr="/img/default.jpg" alt="uploadFile">
+    <h1 class="card__title">title</h1>">
+    <p class="card__about">uploadText</p>
+    <button type="button" class=""btn btn-primary">View info</button>
+
+    {{/each}}
+
+    
+</div>

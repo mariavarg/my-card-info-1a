@@ -1,0 +1,28 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Sofia&display=swap" rel="stylesheet">
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+img {width: 100%;}
+
+.wrapper {
+    place-items: center
+    height: auto;
+}
+
+.btn {
+    border: 0;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+&__title {margin: 0;}
