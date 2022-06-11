@@ -1,2 +1,0 @@
-- name: Upload to Netlify
-  uses: MrFlynn/upload-to-netlify-action@v2
